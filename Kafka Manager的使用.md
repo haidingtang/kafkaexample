@@ -59,6 +59,9 @@ cd ../kafka-manager/bin
 
 # 执行kafka-manager命令
 sh kafka-manager
+
+# 后台启动
+nohup ./kafka-manager &
 ```
 启动后会在控制台输出一些log信息，在浏览器中输入：`localhost:9000`，就会出现一个Kafka Manager的管理界面。
 
